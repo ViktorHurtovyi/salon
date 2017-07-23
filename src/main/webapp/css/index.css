@@ -1,0 +1,61 @@
+body{
+  background: url(d:/parik/img/page.jpg);
+  width: 100%;
+  height: 100%;
+  background-color: #730cf2;
+  color: #333;
+  font-family: "SEGOE UI", Arial, sans-serif;
+  font-size: 1em;
+  line-height: 135%;
+  float: left;
+}
+h2{
+  color: #f71dd3;
+  padding-bottom: 8px;
+    border-bottom: 3px solid #f71dd3;
+}
+span{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#main{
+  padding-left: 30px;
+  padding-right: 15px;
+  background-color: #cccccc;
+  font-size: 1.4em;
+  color: black;
+  width: 58%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 3%;
+  padding-bottom: 5%
+}
+aside{
+    opacity: 0.9;
+  text-align: center;
+  margin-right: 20px;
+  background-color: #cccccc;
+  padding-left: 2px;
+    border-left: 3px solid #f71dd3;
+      border-top: 3px solid #f71dd3;
+        border-bottom: 3px solid #f71dd3;
+    border-right: 3px solid #f71dd3;
+  float: right;
+  width: 27%;
+  margin-left: 3%;
+  margin-top: 20px;
+}
+aside:hover{
+  opacity: 1;
+}
+a>span:hover{
+  color: #f71dd3;
+}
+img{
+  width: 135px;
+  height: 130px;
+}
+img:hover{
+  width: 160px;
+  height: 155px;
+}

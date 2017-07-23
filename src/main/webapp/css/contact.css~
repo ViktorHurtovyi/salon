@@ -1,0 +1,21 @@
+body{
+  background: url(d:/parik/img/65211_0.jpg);
+  width: 99.4%;
+   background-size: cover;
+  height: 100%;
+  background-color: #730cf2;
+  color: #333;
+  font-family: "SEGOE UI", Arial, sans-serif;
+  font-size: 1em;
+  line-height: 135%;
+  float: left;
+}
+h2{
+    line-height: 135%;
+  font-size: 3em;
+  padding-top: 10%;
+  margin-top: 10%;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 30px;
+}

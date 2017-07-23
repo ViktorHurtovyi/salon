@@ -1,0 +1,108 @@
+-moz-transition: all.6s ease;
+-webkit-transition: all.6s ease;
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  color: red;
+}
+html{
+    height: 125%;
+    width: 100%;
+}
+a, a:hover{
+  -webkit-transition:all.6s ease;
+  -moz-transition: all.6s ease;
+  -o-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+  transition: all.6s ease;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+a:hover{
+  color: #909296;
+    font-size: 2em;
+}
+.clear {
+clear: both;
+}
+img {
+  max-width: 100%;
+  max-width: auto;
+  width: auto/9;
+  -webkit-transition:all.3s ease;
+  -moz-transition: all.3s ease;
+  -o-transition: all.3s ease;
+  -ms-transition: all.3s ease;
+  transition: all.3s ease;
+}
+
+              /*header*/
+header {
+  background-image: url(d:/parik/img/sinon.jpg);
+  background-size:auto;
+  float: left;
+    background-color: #32303d;
+    width: 98%;
+    padding: 1%;
+    color: white;
+    border-top: 5px solid #f71dd3;
+    border-bottom: 5px solid #f71dd3;
+}
+.fixed{
+  width: 100%;
+  background: none;
+  position: fixed;
+  top: 0;
+  opacity: 0.6;
+}
+.fixed:hover{
+  opacity: 1;
+  background-image: url(d:/parik/img/sinon.jpg);
+}
+#page{
+  text-align: center;
+  width: 20%;
+  float: left;
+}
+#services{
+  text-align: center;;
+  width: 20%;
+  float: left;
+}
+#galary{
+  text-align: center;
+  width: 20%;
+  float: right;
+}
+#add{
+	text-align: center;
+  width: 20%;
+  float: left;
+}
+#contact{
+  text-align: center;
+  width: 20%;
+  float: right;
+}
+s1{
+  padding-right: 10%;
+}
+#sinon{
+  font-family: 'Fredericka the Great', serif;
+    background: url(d:/parik/img/sinonPage.png);
+    background-size: cover;
+    padding-bottom: 3%;
+}
+h1{
+  margin-bottom: 15%;
+  padding-top: 15%;
+  margin-right: 1%;
+  padding-right: 3%;
+  text-align: center;
+  font-size: 15em;
+}
